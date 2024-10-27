@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'https://cadastro-de-usuarios-back-1zbhz0258.vercel.app'
+    baseURL: 'http://localhost:3000'
 });
 
 export default api;
